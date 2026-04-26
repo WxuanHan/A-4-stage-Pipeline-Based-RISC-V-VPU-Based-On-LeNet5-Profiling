@@ -1,4 +1,4 @@
-# a-4-stage-pipeline-based-RISC-V-VPU-based-on-LeNet5-profiling
+# A-4-stage-Pipeline-Based-RISC-V-VPU-Based-On-LeNet5-Profiling
 This is a RISC-V VPU project based on a 4-stage pipeline.
 
 ## Overview
