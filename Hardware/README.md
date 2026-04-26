@@ -16,13 +16,13 @@ The implementation is written in SystemVerilog RTL and includes supporting defin
 
 This folder is organized into the following subdirectories:
 
-- `include/` – shared definitions, constants, and instruction-format related files
-- `rtl/` – main RTL implementation of the VPU
-- `test_bench/` – SystemVerilog testbenches for functional verification
+- 'include/' – shared definitions, constants, and instruction-format related files
+- 'rtl/' – main RTL implementation of the VPU
+- 'test_bench/' – SystemVerilog testbenches for functional verification
 
 In addition, this directory also contains:
 
-- `VPU_Module_Description.pdf` – functional and architectural description of the VPU modules
+- 'VPU_Module_Description.pdf' – functional and architectural description of the VPU modules
 
 ---
 
@@ -39,9 +39,9 @@ In addition to pipeline restructuring, the design separates key functions into m
 
 ---
 
-## `include/`
+## 'include/'
 
-The `include/` directory contains shared files used across the RTL design.
+The 'include/' directory contains shared files used across the RTL design.
 
 These files typically provide:
 - common definitions
@@ -53,9 +53,9 @@ This directory helps keep the RTL modules consistent and avoids duplication of s
 
 ---
 
-## `rtl/`
+## 'rtl/'
 
-The `rtl/` directory contains the main SystemVerilog implementation of the VPU.
+The 'rtl/' directory contains the main SystemVerilog implementation of the VPU.
 
 At a high level, the RTL includes:
 - top-level VPU integration
@@ -84,9 +84,9 @@ Together, these modules implement the optimized 4-stage VPU architecture used in
 
 ---
 
-## `test_bench/`
+## 'test_bench/'
 
-The `test_bench/` directory contains SystemVerilog testbenches used to verify the hardware modules.
+The 'test_bench/' directory contains SystemVerilog testbenches used to verify the hardware modules.
 
 These testbenches support:
 - module-level functional checking
@@ -101,16 +101,16 @@ The verification files help confirm that the redesigned pipeline stages and supp
 
 This directory also contains:
 
-- `VPU_Module_Description.pdf`
+- 'VPU_Module_Description.pdf'
 
 This document provides a functional and architectural description of the VPU modules and can be used as a reference when reading the RTL implementation. It is intended to support understanding of the major hardware blocks, pipeline-stage responsibilities, and module-level organization of the design.
 
 A recommended reading order for this directory is:
-1. `README.md`
-2. `VPU_Module_Description.pdf`
-3. `include/`
-4. `rtl/`
-5. `test_bench/`
+1. 'README.md'
+2. 'VPU_Module_Description.pdf'
+3. 'include/'
+4. 'rtl/'
+5. 'test_bench/'
 
 ---
 
@@ -130,5 +130,5 @@ This directory therefore serves as the main hardware source tree for the RTL-bas
 ## Notes
 
 This folder contains the hardware source files and supporting hardware documentation. For the software-side scalar/vector benchmark comparison and profiling-related validation flow, please refer to the sibling directories:
-- `../Simulation/`
-- `../rv_profiler/`
+- '../Simulation/'
+- '../rv_profiler/'
